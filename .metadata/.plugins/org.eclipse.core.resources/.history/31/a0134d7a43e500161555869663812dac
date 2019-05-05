@@ -1,0 +1,31 @@
+package Automation;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class RadioButton 
+{
+
+	public void ClickIt(WebDriver driver) throws InterruptedException
+	{
+		driver.findElement(By.xpath("/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[9]/td[2]/font/font/input[1]")).click();;
+		driver.findElement(By.name("findFlights")).click();;
+		Thread.sleep(5000);
+		
+		List<WebElement> list1=driver.findElements(By.name("servClass"));
+	    System.out.println(list1.size());
+	    
+	    for(int i=0;i<list1.size();i++)
+	    {
+	    	//System.out.println(list1.get(i).getText().toString());
+	    	System.out.println(list1.get(i).getAttribute("value"));
+	    	
+	    }
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+package Automation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Register 
+{
+	public void Toregister(WebDriver driver)
+	{
+
+		driver.findElement(By.name("userName")).sendKeys("batman");
+		driver.findElement(By.name("password")).sendKeys("batman");
+		driver.findElement(By.name("login")).click();
+	}
+
+}

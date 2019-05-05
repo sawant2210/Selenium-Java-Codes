@@ -1,0 +1,42 @@
+package Basic;
+
+import java.io.DataInputStream;
+import java.util.Scanner;
+
+public class InputOutput 
+{
+	
+	public static void main(String args[])
+	{
+		
+		try
+		{
+			
+			int a,b;
+//			DataInputStream input=new DataInputStream(System.in);
+//			
+//			System.out.println("Enter 1st inputs");
+////			a=input.readInt(); //similarly to redaddInt, readlong, double, line  --- DONT USE  gives out like garbage value as it takes inputs as BYTE, use readline
+//			a=Integer.parseInt(input.readLine());	
+//			System.out.println("Enter 2nd inputs");
+////			b=input.readInt();
+//			b=Integer.parseInt(input.readLine()); // line is string and need to be converted to Int - Integer is Wrapper class
+//			System.out.println(a+b);
+			
+					
+			Scanner in = new Scanner(System.in);
+			System.out.println("Enter 1st inputs");
+			
+			
+			System.out.println("Enter 2nd inputs");
+			
+			
+			
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+
+}

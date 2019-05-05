@@ -1,0 +1,37 @@
+package Basic;
+
+import java.io.DataInputStream;
+
+public class InputOutput 
+{
+	
+	public static void main(String args[])
+	{
+		int a,b;
+		try
+		{
+			
+			
+			DataInputStream input=new DataInputStream(System.in);
+			
+			System.out.println("Enter 1st inputs");
+			
+			a=input.readInt(); /// similarly to redaddInt, readlong, double, line
+			
+			System.out.println("Enter 2nd inputs");
+			
+			a=input.readInt();
+					
+//			b=Integer.parseInt(in.readLine()); // line is string and nead to be converted to Int
+			System.out.println(a+b);
+			
+					
+			
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+
+}

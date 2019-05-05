@@ -1,0 +1,14 @@
+package Automation;
+
+import org.openqa.selenium.WebDriver;
+
+public class Alert1
+{
+	public void getAlert(WebDriver driver)
+	{
+
+		driver.get("http://toolsqa.com/handling-alerts-using-selenium-webdriver/");
+		
+	}
+
+}

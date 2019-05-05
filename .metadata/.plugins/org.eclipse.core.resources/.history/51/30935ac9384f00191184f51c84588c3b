@@ -1,0 +1,32 @@
+package ExceptionHandeling;
+
+public class FinallyBlock {
+
+	
+	// 
+	public static void main(String[] args) 
+	{
+	
+		
+		try
+		{
+			System.out.println("Try block");
+			int num=121/0;  
+			System.out.println(num);
+			
+		}
+		catch(ArithmeticException e)
+		{
+			System.out.println("Number should not be divided by zero");
+		}
+		finally
+		{
+			System.out.println("This is finally block");
+		}
+		
+		
+		
+
+	}
+
+}

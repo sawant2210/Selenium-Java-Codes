@@ -1,0 +1,23 @@
+'''
+Created on 29-Apr-2018
+
+@author: kunal
+'''
+from selenium import webdriver
+
+driverpath="D:\selenium\Jars\chrome driver New\chromedriver1.exe"
+driver=webdriver.Chrome(driverpath)
+
+driver.get("https://www.facebook.com/");
+driver.implicitly_wait(30)
+driver.find_element_by_id("email").send_keys("kunalssawant@gmail.com")
+
+driver.find_element_by_name("pass").send_keys("9867042302")
+
+driver.find_element_by_id("loginbutton").click()
+
+driver.find_element_by_link_text("Forgotten account?")
+
+driver.find_element_by_partial_link_text("Forgotten")
+
+

@@ -1,0 +1,28 @@
+package Basic;
+
+import java.io.DataInputStream;
+
+public class InputOutput 
+{
+	
+	public static void main(String args[])
+	{
+		int a,b;
+		try
+		{
+			
+			DataInputStream in=new DataInputStream(System.in);
+			a=in.readInt();
+			b=Integer.parseInt(in.readLine());
+					System.out.println();
+			
+					
+			
+		}
+		catch(Exception e)
+		{
+			
+		}
+	}
+
+}

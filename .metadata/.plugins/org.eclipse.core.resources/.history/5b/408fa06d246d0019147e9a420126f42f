@@ -1,0 +1,41 @@
+package BasicAutomation;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class table4 
+{
+//	 table4(WebDriver driver)
+	 public static void main(String args[])
+	 {		
+		 
+		 driver.get("http://toolsqa.com/automation-practice-table/");
+		 
+		 WebElement tbody=driver.findElement(By.xpath("//*[@id='content']/table/tbody"));
+		 
+		 List<WebElement> trow=tbody.findElements(By.tagName("tr"));
+		 
+		 for(int i=0; i<trow.size();i++)
+		 {
+			 System.out.println(trow.get(i).getText().toString());
+		 }
+		 
+		 List<WebElement> tcell=trow.get(0).findElements(By.tagName("td"));
+		 System.out.println(tcell.get(0).getText().toString());
+		 
+		 
+//		 
+//		 WebElement thead=driver.findElement(By.xpath("//*[@id='content']/table/thead"));
+//		 List<WebElement> trow=thead.findElements(By.tagName("tr"));
+//		 
+//		 List<WebElement> tcell=trow.get(0).findElements(By.tagName("th"));
+		 
+		 System.out.println(tcell.get(3).getText().toString());
+  		 
+	 }
+	
+
+}

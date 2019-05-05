@@ -1,0 +1,26 @@
+package Automation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Dropdown
+{
+	public void Dropdown1(WebDriver driver) throws InterruptedException
+	{
+		Select ob1=new Select(driver.findElement(By.name("passCount")));
+		ob1.selectByValue("3");
+		
+		Select ob2=new Select(driver.findElement(By.name("fromPort")));
+		ob2.selectByValue("London");
+		Thread.sleep(1000);
+		ob2.selectByIndex(6);
+		Thread.sleep(1000);
+		ob2.selectByVisibleText("London");
+		
+		
+		Thread.sleep(10000);
+		driver.close();
+	}
+
+}

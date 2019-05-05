@@ -1,0 +1,27 @@
+package ExceptionHandeling;
+
+public class FinallyWithReturn {
+
+	public static void main(String[] args) 
+	{
+		
+		System.out.println(FinallyWithReturn.returnData());
+		
+	}
+		
+	public static int returnData()
+	{
+		
+		try
+		{
+			System.out.println("catch block");
+			return 10;
+		}
+		finally
+		{
+			System.out.println("Finally block");
+			return 20;
+		}
+	}
+
+}

@@ -1,0 +1,2523 @@
+!SESSION 2019-03-25 23:45:17.599 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Users\kunal\workspace\.metadata\.bak_0.log
+Created Time: 2019-03-26 00:02:34.625
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:02:34.626
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:03:07.701
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:20:28.589
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:20:58.529
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:21:22.543
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:25:20.894
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:36:01.215
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 00:36:25.544
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 01:30:37.953
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 01:31:32.751
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 01:32:22.965
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 01:33:26.275
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 01:33:47.342
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 02:03:22.765
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 02:11:18.816
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 02:13:56.940
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 02:14:18.933
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-26 02:16:56.471
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-03-30 14:36:37.874 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-30 14:36:45.349
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 14:37:18.860
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-03-30 14:37:21.516
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 2.0.3.v20160905-1331
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:103)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 14:38:27.938
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 15:03:25.098
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 15:13:52.387
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:19:03.946
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:19:47.006
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:25:25.074
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:27:04.923
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:33:33.185
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:35:04.852
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:48:42.375
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:50:36.582
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:57:08.619
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:57:50.309
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:58:24.374
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:59:00.533
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:59:31.185
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 16:59:52.419
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:06:35.351
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:07:41.212
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:08:06.837
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:11:36.031
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:13:22.637
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:14:54.051
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:15:15.576
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 17:15:43.915
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-03-30 21:22:20.405 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-03-30 21:24:22.102
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:36:48.694
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:38:15.090
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:46:01.264
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:48:17.199
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:53:16.955
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:53:53.730
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-03-30 21:56:59.077
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-04-04 23:17:49.900 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-04 23:33:24.310
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-04-05 10:11:28.657 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-05 10:32:56.169
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-04-05 23:55:32.073 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-05 23:56:17.071
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-04-07 20:55:15.678 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-07 20:55:50.099
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-04-07 20:55:52.809
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 2.0.3.v20160905-1331
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:103)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:13:36.272
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:14:03.679
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:14:25.544
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:14:47.994
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:15:24.320
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:20:35.322
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:23:02.217
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:23:23.402
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:25:14.204
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:28:23.302
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:28:49.440
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:44:07.263
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 21:44:56.390
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-07 22:00:34.837
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-04-09 22:10:51.178 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-09 22:11:43.482
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2019-04-09 22:11:57.033
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: dev.eclipse.org. ; version: 2.0.3.v20160905-1331
+!STACK 0
+java.net.UnknownHostException: dev.eclipse.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:205)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:103)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+!SESSION 2019-04-18 01:10:39.718 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-18 01:11:15.066
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-04-18 23:18:10.523 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-18 23:18:43.502
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-18 23:28:52.970
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-04-18 23:34:31.426
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-04-25 01:26:30.551 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-25 01:27:01.135
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-04-25 01:54:56.202 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-25 01:55:15.859
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-05-02 22:15:43.448 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-02 22:16:20.489
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-03 03:16:12.025
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-03 03:17:52.574
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-03 03:20:03.422
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-03 03:21:26.652
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-03 03:32:40.298
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-03 03:33:31.251
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2019-05-03 10:45:57.701 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-03 10:46:35.085
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-05-03 11:08:45.208 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-03 11:09:15.962
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-05-03 11:11:41.235 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-03 11:12:10.197
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-05-05 22:25:55.959 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-05 22:31:36.730
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-05-06 00:07:41.902 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-06 00:08:12.964
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2019-05-06 00:12:04.014 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-06 00:12:34.559
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kunal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2019-05-06 00:12:38.728
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '../.git', absolute path: 'C:/Users/kunal/WorkspaceNew/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:720)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:683)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:630)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:218)
+	at org.eclipse.egit.core.project.RepositoryMapping.getProjectData(RepositoryMapping.java:356)
+	at org.eclipse.egit.core.project.RepositoryMapping.findMapping(RepositoryMapping.java:377)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:317)
+	at org.eclipse.egit.core.internal.util.ResourceUtil.getRepository(ResourceUtil.java:702)
+	at org.eclipse.egit.ui.internal.resources.ResourceStateFactory.getIndexDiffDataOrNull(ResourceStateFactory.java:89)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:224)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:201)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:254)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:100)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:383)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-06 00:22:06.224
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.python.pydev.shared_core 4 4 2019-05-06 00:26:39.217
+!MESSAGE No message gotten (null message).
+!STACK 0
+java.lang.NullPointerException
+	at org.python.pydev.debug.ui.launching.PythonRunnerConfig.getWorkingDirectory(PythonRunnerConfig.java:210)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.initLaunchConfiguration(PythonConsoleLineTracker.java:160)
+	at org.python.pydev.debug.ui.PythonConsoleLineTracker.init(PythonConsoleLineTracker.java:131)
+	at org.eclipse.debug.internal.ui.views.console.ConsoleLineNotifier.connect(ConsoleLineNotifier.java:56)
+	at org.eclipse.ui.internal.console.ConsolePatternMatcher.addPatternMatchListener(ConsolePatternMatcher.java:232)
+	at org.eclipse.ui.console.TextConsole.addPatternMatchListener(TextConsole.java:409)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.<init>(ProcessConsole.java:228)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchChanged(ProcessConsoleManager.java:149)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:453)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:433)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1043)
+	at org.eclipse.debug.core.Launch.fireChanged(Launch.java:393)
+	at org.eclipse.debug.core.Launch.addProcess(Launch.java:355)
+	at org.eclipse.debug.core.model.RuntimeProcess.<init>(RuntimeProcess.java:126)
+	at org.eclipse.debug.core.DebugPlugin.newProcess(DebugPlugin.java:787)
+	at org.eclipse.jdt.launching.AbstractVMRunner.newProcess(AbstractVMRunner.java:170)
+	at org.eclipse.jdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:424)
+	at org.eclipse.jdt.launching.JavaLaunchDelegate.launch(JavaLaunchDelegate.java:102)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

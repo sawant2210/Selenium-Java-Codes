@@ -1,0 +1,23 @@
+package Automation;
+
+import java.util.Set;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Wind 
+{
+	public void getWind(WebDriver driver) throws InterruptedException
+	{
+
+		driver.get("http://toolsqa.com/automation-practice-switch-windows/");
+		String parentwind=driver.getWindowHandle();
+		System.out.println(parentwind);
+		driver.findElement(By.xpath("//*[@id='content']/p[4]/button")).click();
+		Set<String> allwind= driver.getWindowHandles();
+		System.out.println(allwind);
+		
+			}
+	
+}

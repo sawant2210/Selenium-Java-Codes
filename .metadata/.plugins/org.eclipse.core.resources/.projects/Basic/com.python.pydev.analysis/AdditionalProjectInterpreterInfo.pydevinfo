@@ -1,0 +1,44 @@
+-- VERSION_5
+-- START DISKCACHE_2
+C:\Users\kunal\WorkspaceNew\.metadata\.plugins\org.eclipse.core.resources\.projects\Basic\com.python.pydev.analysis\v2_indexcache
+com.introduction.A5_Stirng|1524175554175358000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A5_Stirng.py
+com.introduction.A2_variables|1524172232004249000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A2_variables.py
+com.introduction.A3_IfElse|1524174885446946000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A3_IfElse.py
+com.__init__|1524169196933939000|C:\Users\kunal\WorkspaceNew\Basic\com\__init__.py
+com.introduction.A4_Loops|1524174021382942000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A4_Loops.py
+com.introduction.__init__|1524169196950960000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\__init__.py
+Selenium.locators|1525023533365375000|C:\Users\kunal\WorkspaceNew\Basic\Selenium\locators.py
+Selenium.__init__|1524767281654263000|C:\Users\kunal\WorkspaceNew\Basic\Selenium\__init__.py
+Selenium.invokeBrowser|1524862733247187000|C:\Users\kunal\WorkspaceNew\Basic\Selenium\invokeBrowser.py
+com.introduction.A1_helloword|1524170119663214000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A1_helloword.py
+com.introduction.A6_lists|1524176459183929000|C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A6_lists.py
+-- END DISKCACHE
+-- START DICTIONARY
+14
+2=com.introduction.A2_variables
+3=C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A3_IfElse.py
+7=C:\Users\kunal\WorkspaceNew\Basic\Selenium\invokeBrowser.py
+9=C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A6_lists.py
+1=C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A2_variables.py
+6=Selenium.locators
+10=com.introduction.A6_lists
+12=com.introduction.A5_Stirng
+13=C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A4_Loops.py
+4=com.introduction.A3_IfElse
+11=C:\Users\kunal\WorkspaceNew\Basic\com\introduction\A5_Stirng.py
+14=com.introduction.A4_Loops
+5=C:\Users\kunal\WorkspaceNew\Basic\Selenium\locators.py
+8=Selenium.invokeBrowser
+-- END DICTIONARY
+-- START TREE 1
+6
+age|1|age!1^7#1*19@
+c|1|c!3^28#1*35@
+cit|1|city!1^9#1*19@
+dri|4|driver!5^10#1*51@driver!7^13#1*67@driverpath!5^9#1*51@driverpath!7^12#1*67@
+lis|1|list1!9^6#1*83@
+var|7|var1!1^8#1*19@var1!11^7#1*99@var1!3^7#1*35@var1!13^11#1*115@var2!13^15#1*115@var2!11^8#1*99@var!3^14#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

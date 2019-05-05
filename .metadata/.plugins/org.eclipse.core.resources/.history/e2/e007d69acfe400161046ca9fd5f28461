@@ -1,0 +1,49 @@
+package Automation;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class InitiateDriver {
+
+	public static void main(String[] args)
+	{
+		
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kunal\\Downloads\\Jars\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("http://newtours.demoaut.com/");
+		
+		/*driver.findElement(By.name("userName")).sendKeys("batman");
+		driver.findElement(By.name("password")).sendKeys("batman");
+		driver.findElement(By.name("login")).click();*/
+		
+		List<WebElement> list1=driver.findElements(By.tagName("a"));
+	    System.out.println(list1.size());	
+	    
+	    Register ob1=new Register();
+	    ob1.Toregister(driver);
+	    
+	    /*for(int i=0;i<list1.size();i++)
+	    {
+	    	System.out.println(list1.get(i).getText().toString());
+	    	System.out.println(list1.get(i).getAttribute("href"));
+	    	
+	    }*/
+		
+	    
+	    
+	    
+	//    driver.close();
+				
+			
+			
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package Automation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class RadioButton 
+{
+
+	public void ClickIt(WebDriver driver) throws InterruptedException
+	{
+		driver.findElement(By.xpath("/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[9]/td[2]/font/font/input[1]")).click();;
+		driver.findElement(By.name("findFlights")).click();;
+		Thread.sleep(5000);
+	}
+	
+	
+	
+}

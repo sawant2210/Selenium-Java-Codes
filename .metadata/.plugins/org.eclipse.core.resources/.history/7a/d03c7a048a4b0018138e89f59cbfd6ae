@@ -1,0 +1,15 @@
+'''
+Created on 29-Apr-2018
+
+@author: kunal
+'''
+from selenium import webdriver
+
+driverpath="D:\selenium\Jars\chrome driver New\chromedriver1.exe"
+driver=webdriver.Chrome(driverpath)
+
+driver.get("https://www.facebook.com/");
+driver.implicitly_wait(30)
+driver.find_element_by_id("email").send_keys('kunalssawant@gmail.com')
+
+

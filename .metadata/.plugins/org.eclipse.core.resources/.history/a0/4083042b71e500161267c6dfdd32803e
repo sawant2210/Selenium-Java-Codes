@@ -1,0 +1,28 @@
+package Automation;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Utility {
+
+	public static void main(String[] args) throws InterruptedException
+	{
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\kunal\\Downloads\\Jars\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		driver.get("http://newtours.demoaut.com/");
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		
+		Dimension obj= new Dimension(300,400);
+		driver.manage().window().setSize(obj);
+		
+
+	}
+
+}

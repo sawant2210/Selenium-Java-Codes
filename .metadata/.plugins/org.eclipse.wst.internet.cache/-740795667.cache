@@ -1,0 +1,39 @@
+<!-- Defines which groups to exclude from the current group of groups       -->
+<!ELEMENT exclude ANY>
+<!ATTLIST exclude
+    name CDATA #REQUIRED>
+
+<!-- The subtag of groups used to define which groups should be run         -->
+<!ELEMENT run (include?,exclude?)* >
+
+<!ELEMENT dependencies (group*)>
+
+<!ELEMENT group ANY>
+<!ATTLIST group
+    name CDATA #REQUIRED
+    depends-on CDATA #REQUIRED>
+
+<!-- The list of classes to include in this test                            -->
+<!ELEMENT classes (class*,parameter*) >
+<!ELEMENT class (methods*) >
+<!ATTLIST class
+    name CDATA #REQUIRED >
+
+<!-- The list of packages to include in this test                           -->
+<!ELEMENT packages (package*) >
+<!-- The package description. 
+     If the package name ends with .* then subpackages are included too.
+-->
+<!ELEMENT package (include?,exclude?)*>
+<!ATTLIST package
+    name CDATA #REQUIRED >
+
+<!-- The list of methods to include/exclude from this test                 -->
+<!ELEMENT methods (include?,exclude?,parameter?)* >
+
+<!-- The list of listeners that will be passed to TestNG -->
+<!ELEMENT listeners (listener*) >
+
+<!ELEMENT listener ANY>
+<!ATTLIST listener
+    class-name CDATA #REQUIRED >

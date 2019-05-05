@@ -1,0 +1,15 @@
+package Automation;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Wind 
+{
+	public void getWind(WebDriver driver) throws InterruptedException
+	{
+
+		driver.get("http://toolsqa.com/automation-practice-switch-windows/");
+	}
+	
+}
